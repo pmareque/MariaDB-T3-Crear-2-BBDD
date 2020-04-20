@@ -11,7 +11,8 @@ Agora pódese comezar a crear as táboas dentro da BD que acabamos de crear.
 
 Esta BD ten **9 táboas: Sede, Departamento, Ubicacion, Grupo, Profesor, Programa, Proxecto, Participa e Financia**. Temos que usar o comando `CREATE TABLE` para cada táboa, sempre indicando o seu nome, os atributos que forman a táboa, o tipo de dato de ditos atributos, a clave primaria e as posibles claves foráneas. Nalgunha das táboas engadiremos as claves foráneas mediante `ALTER TABLE`.
 
-*ddl1_1.PNG USE, Sede , Departamento*
+*USE, Sede , Departamento*
+![captura1](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_1.PNG)
 
 *ddl1_2.PNG Ubicacion , Grupo*
 
