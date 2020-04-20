@@ -37,10 +37,10 @@ USE naves_espaciais;
 A BD **naves_espaciais** ten **8 táboas: Servizo, Dependencia, Camara, Tripulacion, Planeta, Visita, Habita e Raza.**
 
 
-*ddl2_1.PNG Servizo, Dependencia*
+*Comando USE, táboa Sede e táboa Departamento, Servizo, Dependencia* ![capt1](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl2_1.PNG)
 
-*ddl2_2.PNG Camara, Tripulacion, ALTER TABLE Tripulacion*
+*Táboa Camara, táboa Tripulacion, ALTER TABLE Tripulacion* ![capt2](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl2_2.PNG)
 
-*ddl2_3.PNG Planeta, Visita*
+*Táboa Planeta, táboa Visita* ![capt3](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl2_3.PNG)
 
-*ddl2_4.PNG Habita, Raza, ALTER TABLE Habita, ALTER TABLE Camara*
+* Táboa Habita, táboa Raza, ALTER TABLE Habita, ALTER TABLE Camara* ![capt4](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl2_4.PNG)
