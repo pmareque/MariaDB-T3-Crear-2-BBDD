@@ -17,7 +17,7 @@ A BD **proxectos_de_investigacion** ten **9 táboas: Sede, Departamento, Ubicaci
 
 *Táboa **Profesor*** ![captura3](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_3.PNG)
 
-*ALTER TABLE **Departamento**, ALTER TABLE Grupo, táboa Programa* ![captura4](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_4.PNG)
+*ALTER TABLE **Departamento**, ALTER TABLE **Grupo**, táboa **Programa*** ![captura4](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_4.PNG)
 
 *2 ALTER TABLE **Profesor** , `describe`= mostra a estructura completa da táboa(neste caso a táboa Profesor).* ![captura5](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_5.PNG)
 
@@ -35,7 +35,6 @@ USE naves_espaciais;
 ```
 
 A BD **naves_espaciais** ten **8 táboas: Servizo, Dependencia, Camara, Tripulacion, Planeta, Visita, Habita e Raza.**
-
 
 *Táboa **Servizo**, táboa **Dependencia*** ![capt1](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl2_1.PNG)
 
