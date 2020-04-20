@@ -9,7 +9,7 @@ USE proxectos_de_investigacion;
 
 Agora pódese comezar a crear as táboas dentro da BD que acabamos de crear. 
 
-Esta BD ten **9 táboas: Sede, Departamento, Ubicacion, Grupo, Profesor, Programa, Proxecto, Participa e Financia**. Temos que usar o comando `CREATE TABLE` para cada táboa, sempre indicando o seu nome, os atributos que forman a táboa, o tipo de dato de ditos atributos, a clave primaria e as posibles claves foráneas. Nalgunha das táboas engadiremos as claves foráneas mediante `ALTER TABLE`.
+A BD **proxectos_de_investigacion** ten **9 táboas: Sede, Departamento, Ubicacion, Grupo, Profesor, Programa, Proxecto, Participa e Financia**. Temos que usar o comando `CREATE TABLE` para cada táboa, sempre indicando o seu nome, os atributos que forman a táboa, o tipo de dato de ditos atributos, a clave primaria e as posibles claves foráneas. Nalgunha das táboas engadiremos as claves foráneas mediante `ALTER TABLE`.
 
 *Comando USE, táboa Sede e táboa Departamento* ![captura1](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_1.PNG)
 
@@ -21,15 +21,20 @@ Esta BD ten **9 táboas: Sede, Departamento, Ubicacion, Grupo, Profesor, Program
 
 *2 ALTER TABLE Profesor , `describe`= mostra a estructura completa da táboa.* ![captura5](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_5.PNG)
 
-*Táboa Proxecto, ALTER TABLE Proxecto (2)* ![captura6](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_6.PNG)
+*Táboa Proxecto, 2 ALTER TABLE Proxecto* ![captura6](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_6.PNG)
  
-*Táboa Participa, táboa Financia, ALTER TABLE Financia (2)* ![captura7](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_7.PNG)
+*Táboa Participa, táboa Financia, 2 ALTER TABLE Financia * ![captura7](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_7.PNG)
 
 # DDL2 Naves espaciais
 
-Do mesmo modo que na base de datos anterior, utilizamos os comandos `CREATE DATABASE nome-taboa` e `USE nome-taboa`.
+Do mesmo modo que na base de datos anterior, utilizamos os comandos `CREATE DATABASE nome-taboa` e `USE nome-taboa`:
 
-Esta BD ten **8 táboas: Servizo, Dependencia, Camara, Tripulacion, Planeta, Visita, Habita e Raza.**
+```SQL
+CREATE DATABASE naves_espaciais; 
+USE naves_espaciais;
+```
+
+A BD **naves_espaciais** ten **8 táboas: Servizo, Dependencia, Camara, Tripulacion, Planeta, Visita, Habita e Raza.**
 
 
 *ddl2_1.PNG Servizo, Dependencia*
