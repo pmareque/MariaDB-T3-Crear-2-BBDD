@@ -11,19 +11,19 @@ Agora pódese comezar a crear as táboas dentro da BD que acabamos de crear.
 
 Esta BD ten **9 táboas: Sede, Departamento, Ubicacion, Grupo, Profesor, Programa, Proxecto, Participa e Financia**. Temos que usar o comando `CREATE TABLE` para cada táboa, sempre indicando o seu nome, os atributos que forman a táboa, o tipo de dato de ditos atributos, a clave primaria e as posibles claves foráneas. Nalgunha das táboas engadiremos as claves foráneas mediante `ALTER TABLE`.
 
-*USE, Sede , Departamento* ![captura1](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_1.PNG)
+*Comando USE, táboa Sede e táboa Departamento* ![captura1](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_1.PNG)
 
-*Ubicacion , Grupo* ![captura2](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_2.PNG)
+*Táboa Ubicacion e táboa Grupo* ![captura2](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_2.PNG)
 
-*Profesor* ![captura3](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_3.PNG)
+*Táboa Profesor* ![captura3](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_3.PNG)
 
-*ALTER TABLE Departamento, ALTER TABLE Grupo, Programa* ![captura4](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_4.PNG)
+*ALTER TABLE Departamento, ALTER TABLE Grupo, táboa Programa* ![captura4](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_4.PNG)
 
 *2 ALTER TABLE Profesor , `describe`= mostra a estructura completa da táboa.* ![captura5](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_5.PNG)
 
-*Proxecto, ALTER TABLE Proxecto (2)* ![captura6](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_6.PNG)
+*Táboa Proxecto, ALTER TABLE Proxecto (2)* ![captura6](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_6.PNG)
  
-*Participa, Financia, ALTER TABLE Financia (2)* ![captura7](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_7.PNG)
+*Táboa Participa, táboa Financia, ALTER TABLE Financia (2)* ![captura7](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl1_7.PNG)
 
 # DDL2 Naves espaciais
 
