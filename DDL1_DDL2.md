@@ -27,14 +27,14 @@ A BD **proxectos_de_investigacion** ten **9 táboas: Sede, Departamento, Ubicaci
 
 # DDL2 Naves espaciais
 
-Do mesmo modo que na base de datos anterior, utilizamos os comandos `CREATE DATABASE nome-taboa` e `USE nome-taboa`:
+Do mesmo xeito que na base de datos anterior, utilizamos os comandos `CREATE DATABASE nome-taboa` e `USE nome-taboa`:
 
 ```SQL
 CREATE DATABASE naves_espaciais; 
 USE naves_espaciais;
 ```
 
-A BD **naves_espaciais** ten **8 táboas: Servizo, Dependencia, Camara, Tripulacion, Planeta, Visita, Habita e Raza.**
+A BD **naves_espaciais** ten **8 táboas: Servizo, Dependencia, Camara, Tripulacion, Planeta, Visita, Habita e Raza**. En canto ás claves foráneas, engadiremos algunhas nos `CREATE TABLE ` como en constraints de `ALTER TABLE`. 
 
 *Táboa **Servizo**, táboa **Dependencia*** ![capt1](https://github.com/pmareque/Tarea-3-Crear-2-BBDD-en-MariaDB-/blob/master/ddl2_1.PNG)
 
