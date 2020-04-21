@@ -33,6 +33,7 @@ Do mesmo xeito que na base de datos anterior, utilizamos os comandos `CREATE DAT
 CREATE DATABASE naves_espaciais; 
 USE naves_espaciais;
 ```
+Agora pasamos a crear as táboas dentro da nova BD. 
 
 A BD **naves_espaciais** ten **8 táboas: Servizo, Dependencia, Camara, Tripulacion, Planeta, Visita, Habita e Raza**. En canto ás claves foráneas, engadiremos algunhas nos `CREATE TABLE ` como en constraints de `ALTER TABLE`. 
 
